@@ -36,6 +36,9 @@
     display: inline-block;
     margin-left: 25px;color: #ffffff;
 }*/
+
+
+/* ----------------------------------------------------GLOBAL STYLING------------------------------------------------------------------------ */
 body {
     background-image: url('concrete_seamless.png');
 } 
@@ -66,7 +69,7 @@ body {
   
   /* Add an active class to highlight the current page */
   .topnav a.active {
-    background-color: darkslategrey ;
+    background-color: rgba(0, 206, 209, 0.739);
     color: white;
   }
   
@@ -140,8 +143,8 @@ img {vertical-align: middle;}
 }
 
 /* Caption text */
-.text {
-  color: #f2f2f2;
+.carouselText {
+  color: #333;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -196,4 +199,11 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+/* ----------------------------------------------------HOME/INDEX PAGE------------------------------------------------------------------------ */
+.welcome {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: lightblue;
+  margin-top: 25%;
 }
