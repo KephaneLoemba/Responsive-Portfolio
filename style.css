@@ -207,3 +207,14 @@ img {vertical-align: middle;}
   color: lightblue;
   margin-top: 25%;
 }
+/* ----------------------------------------------------ABOUT PAGE----------------------------------------------------------------------------- */
+/* .aboutGrid {
+  background-color: lightblue;
+  padding: 2%;
+  border-radius: 10px;
+  border-width: thick;
+  border-color: darkslategrey;
+} */
+#aboutBio {
+  color: lightblue;
+}
